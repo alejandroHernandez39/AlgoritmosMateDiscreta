@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\Presentacion">
+      <UniqueIdentifier>{4dd45199-7e38-4d20-a702-fe35b4a07be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Dominio">
+      <UniqueIdentifier>{14c90119-432b-4c65-a1b7-d44231027912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Aplicacion">
+      <UniqueIdentifier>{da192f02-536c-4ab4-b0d4-0dbba4bd8f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Infraesctuctura">
+      <UniqueIdentifier>{8accf3be-7499-415f-8d1c-aa8af3fce5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Dominio\Entidades">
+      <UniqueIdentifier>{2b615c11-763a-43ab-8a49-202b3eaaac76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Aplicacion\Interfaces">
+      <UniqueIdentifier>{1cdb3847-1e1e-486d-be47-83a427b43317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Aplicacion\Servicios">
+      <UniqueIdentifier>{62fa9158-209f-400a-8ff8-0ca1c990b9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Infraesctuctura\Utilidades">
+      <UniqueIdentifier>{a735fd1e-8b87-403d-bd80-7434d345137c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlgoritmosMateDiscreta.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Archivos de origen\Presentacion</Filter>
+    </ClCompile>
+    <ClCompile Include="TerminoBinomio.cpp">
+      <Filter>Archivos de origen\Dominio\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="IServicioBinomio.h">
+      <Filter>Archivos de origen\Aplicacion\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicioBinomio.cpp">
+      <Filter>Archivos de origen\Aplicacion\Servicios</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorPrimo.cpp">
+      <Filter>Archivos de origen\Dominio\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicioFactorizacionPrima.cpp">
+      <Filter>Archivos de origen\Aplicacion\Servicios</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultadoEuclides.cpp">
+      <Filter>Archivos de origen\Dominio\Entidades</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicioEuclides.cpp">
+      <Filter>Archivos de origen\Aplicacion\Servicios</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Archivos de origen\Presentacion</Filter>
+    </ClInclude>
+    <ClInclude Include="TerminoBinomio.h">
+      <Filter>Archivos de origen\Dominio\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicioBinomio.h">
+      <Filter>Archivos de origen\Aplicacion\Servicios</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorPrimo.h">
+      <Filter>Archivos de origen\Dominio\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="IServicioFactorizacionPrima.h">
+      <Filter>Archivos de origen\Aplicacion\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicioFactorizacionPrima.h">
+      <Filter>Archivos de origen\Aplicacion\Servicios</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultadoEuclides.h">
+      <Filter>Archivos de origen\Dominio\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="IServicioEuclides.h">
+      <Filter>Archivos de origen\Aplicacion\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicioEuclides.h">
+      <Filter>Archivos de origen\Aplicacion\Servicios</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
